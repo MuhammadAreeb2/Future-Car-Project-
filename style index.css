@@ -1,0 +1,87 @@
+*{
+    background-color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.link,a{
+    color:whitesmoke;
+    text-shadow: 2px 2px 10px cornflowerblue;
+    text-decoration: none;
+  }
+  
+  .link:visited,a:visited{
+    color:whitesmoke;
+  }
+
+
+.heading{
+    color: rgb(61, 83, 148);
+    text-shadow: 2px 2px 5px rgba(40, 77, 71, 0.829);
+}
+
+  h1{
+
+    color: royalblue;
+    text-shadow: 4px 6px 10px cadetblue;
+    text-align: center;
+    /* font size px,em,%,pt */
+    font-size: 32px;
+    font-style:oblique;  /*forstylepurpose */
+
+    
+}
+
+li{
+   
+    display: inline-block;
+    text-shadow: 2px 2px 5px rgb(83, 102, 163);
+    margin: 10px 30px ;
+    padding: 10px;
+    font-size: 25px;
+    border: 2px solid cornflowerblue;
+    box-shadow: 2px 2px 3px 3px rgb(35, 58, 99);
+    width: 130px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+
+h3{
+    color: white;
+    text-align: center;
+     
+    text-align: center ;
+}
+.home{
+   
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+    color: rgb(180, 180, 221);
+}
+.image{
+    width: 100%;
+    min-width: 200px;
+    max-width: 1350px;
+}
+.area{
+    margin: 50px 20px;
+    
+    color: rgb(226, 218, 202);
+    text-align: center;
+    text-decoration: none;
+}
+.top{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+
+footer{
+    text-align: center;
+    color: antiquewhite;
+    text-decoration:underline;
+}

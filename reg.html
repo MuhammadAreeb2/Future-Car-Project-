@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="reg.css" />
+  </head>
+  <body>
+    <center>
+      <div>
+        <ul>
+          <li><a href="index.html" class="links">Main Menu</a></li>
+          <li><a href="reg.html" class="links">Registration</a></li>
+          <li><a href="Images.html" class="links">Features</a></li>
+          <li><a href="about.html" class="links">About Us</a></li>
+        </ul>
+      </div>
+    </center>
+    <br />
+    <center>
+      <form action="/action_page.php">
+        <h2><strong>Registration </strong></h2>
+    
+      <fieldset>
+        <legend>
+          <strong> <h3>Personal Information</h3></strong>
+        </legend>
+        <table>
+          <tr class="row">
+            <td>
+              <span class="field_names">Username:</span>
+            </td>
+            <td>
+              <input
+                type="text"
+                class="input_fields"
+                placeholder="Enter your Username"
+                required
+              />
+            </td>
+            <td>
+              <span class="field_names">Password:</span>
+            </td>
+            <td>
+              <input
+                type="password"
+                class="input_fields"
+                placeholder="Enter your Password"
+                required
+              />
+            </td>
+          </tr>
+          <tr class="row">
+            <td>
+              <span class="field_names">Email:</span>
+            </td>
+            <td>
+              <input
+                type="email"
+                class="input_fields"
+                placeholder="Enter your Email"
+                required
+              />
+            </td>
+            <td>
+              <span class="field_names">CNIC:</span>
+            </td>
+            <td>
+              <input
+                type="number"
+                class="input_fields"
+                placeholder="Enter your CNIC"
+                required
+              />
+            </td>
+          </tr>
+          <tr class="row">
+            <td>
+              <span class="field_names">Gender</span>
+            </td>
+            <td>
+              <span><strong>Male </strong></span>
+              <input type="radio" value="male" name="gender" />
+              <span> <strong> Female </strong></span>
+              <input type="radio" value="female" name="gender" />
+            </td>
+
+            <td>
+              <span class="choose"> <strong> Date of Birth </strong></span>
+            </td>
+            <td>
+              <input type="date" class="input_fields" />
+            </td>
+          </tr>
+
+          <tr class="row">
+            <td class="dropdown">
+              <span class="choose"> <strong> Choose Your </strong></span>
+              <span class="choose"> <strong> Country </strong></span>
+            </td>
+            <td>
+              <select name="country" id="choice" class="field_names">
+                <option value="pakistan">Afghanistan</option>
+                <option value="pakistan">India</option>
+                <option value="india">Pakistan</option>
+                <option value="UAE">Turkey</option>
+                <option value="Turkey">UAE</option>
+                
+                <option value="Turkey">Saudia Arab</option>
+              </select>
+            </td>
+            <td>
+              <span class="field_names ">Upload Your </span>
+              <span class="field_names">Picture </span>
+            </td>
+            <td>
+              <input type="file" class="input_fields" />
+            </td>
+          </tr>
+          <tr class="row"><td><td></td></td></tr>
+          
+          <tr class="row">
+            <td ><input  class="input_fields  Submit"   type="submit" value="Submit"></td>
+          </tr>
+        </table>
+      </fieldset>
+      </form>
+    </center>
+
+    
+  </body>
+</html>
